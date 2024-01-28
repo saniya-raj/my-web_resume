@@ -20,7 +20,240 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="mystyle.css">
     <title>My web resume</title>
-    
+    <style>
+        nav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+    float: left;
+    display: block;
+    color:  whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.main{
+    margin-top: 50px;
+}
+
+.bg_img{
+object-fit: cover;
+width: 100%;
+height: 400px;
+filter: blur(4px);
+margin-top: 1px;
+}
+.profile_pic{
+object-fit: cover;
+height: 150px;
+width: 150px;
+border-style: solid;
+border-color: white;
+border-width: thick;
+border-radius: 100%;
+position: absolute;
+margin-top: -4.5rem;
+}
+.text-block{
+position: absolute;
+margin-top: -13.5rem;
+text-align: center;
+margin-left: 600px;
+font-weight: bold;
+}
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 30px;
+text-align: right;
+text-decoration: none;
+border-radius: 50%;
+}
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+opacity: 0.7;
+}
+
+.main1{
+margin-left: 15.5em;
+margin-right: 15.5em;
+}
+h1{
+font-size: 2.2rem;
+text-align: left;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+margin-top: 40px;
+}
+hr{
+border: 2px solid rgb(0,0,0);
+width: 50px;
+}
+.education{
+display: flex;
+flex-direction: row;
+margin-top: 40px;
+align-items: center;
+justify-content: space-evenly;
+}
+.schl-name,.year{
+font-weight: bold;
+font-size: 1.0em;
+}
+.skills{
+background-image: url("https://th.bing.com/th/id/OIP.ZHS1e5s0aB3aQFxTv_2oCwHaE7?w=253&h=180&c=7&r=0&o=5&pid=1.7");
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+width: 100%;
+padding-left: 15.5em;
+padding-right: 15.5em;
+}
+table,th,td{
+border: 2px solid black;
+float: center;
+}
+table{
+margin-top: 3.0rem;
+}
+th,td{
+padding: 50px 50px 15px 15px;
+}
+table.skill_name{
+margin-left: 9.5px;
+margin-right: 9.5px;
+
+}
+.td1{
+background-color: white;
+font-family: Cambria;
+color: black;
+text-align: center;
+font-weight: bold;
+}
+.td2{
+background-color: lightblue;
+font-family: Cambria;
+color: black;
+text-align: center;
+font-weight: bold;
+}
+.skill-level1{
+color: red;
+font-size: 1.5rem;
+font-weight: bold;
+}
+.skill-level2{
+color: red;
+font-size: 1.5rem;
+font-weight: bold;
+}
+.contact1{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.personal_details{
+background-color: darkblue;
+color: white;
+width: 800px;
+height: 500px;
+padding-left: 15.5em;
+}
+.contact{
+background-color: lightgray;
+color: black;
+width: 800px;
+padding-left: 50px;
+padding-right: 15.5em;
+}
+input{
+width: 400px;
+}
+span,label{
+font-weight: bold;
+font-size: 1.1rem;
+font-family: Gill Sans;
+}
+.button:hover{
+opacity: 6.7;
+background-color: #04AA6D;
+}
+.button{
+font-size: 1.5rem;
+font-weight: bold;
+padding: 1px 1px;
+height: 60px;
+width: 150px;
+text-align: center;
+margin-left: 80px;
+background-color: rgb(176, 253, 176);
+color: black;
+border: 3px solid black;
+border-radius: 10px;
+}
+fieldset{
+border: 2px solid black;
+width: 300px;
+padding-top: 10px;
+padding-bottom: 1px;
+text-align: center;
+font-weight: bold;
+}
+.copyright{
+font-style: italic;
+font-family: sans-serif;
+text-align: center;
+}
+.footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.download:hover{
+opacity: 6.7;
+background-color: black;
+color: white;
+}
+@media screen and (max-width: 500px) {
+.main{
+width: 100%;
+}
+.bg_img {
+max-width: 100%;
+}
+body{
+margin: 0;
+}
+.skills{
+max-width: 100%;
+}
+
+
+}
+    </style>
         
 
     
